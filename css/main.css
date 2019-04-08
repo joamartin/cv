@@ -4,7 +4,12 @@ html {
 }
 
 body {
-  margin-bottom: 32px;
+  font-size: 14px;
+}
+
+.section {
+  margin: 0;
+  padding: 16px;
 }
 
 .container {
@@ -12,11 +17,11 @@ body {
 }
 
 .image-profile {
-  width: 192px;
+  width: 160px;
 }
 
 h1 {
-  margin: 40px 0 0 36px;
+  margin: 32px 0 0 36px;
   font-size: 36px;
 }
 
@@ -40,14 +45,10 @@ h2 {
   font-size: 28px;
 }
 
-.work-experience {
-  margin-top: 16px;
-}
-
 h3 {
   margin-top: -0.75rem;
   display: inline-block;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .years {
@@ -60,6 +61,7 @@ h3 {
   margin-left: 12px;
   font-style: italic;
   font-size: 16px;
+  color: #888;
 }
 
 ul.work-details-list {
@@ -69,11 +71,27 @@ ul.work-details-list {
 }
 
 ul.work-details-list li {
-  margin-bottom: 12px;
+  margin: 8px 0 12px 0;
+}
+
+ul.feature-list {
+  padding-left: 24px;
+  list-style-type: circle;
+}
+
+ul.feature-list li {
+  margin: 4px 0 0 0;
+}
+
+.technologies {
+  margin-top: 8px;
+  font-style: italic;
+  font-size: 14px;
+  color: #888;
 }
 
 .education-item {
-  margin-top: 16px;
+  margin-top: 12px;
 }
 
 .school {
